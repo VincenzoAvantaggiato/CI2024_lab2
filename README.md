@@ -5,10 +5,20 @@ The aim of this code is to solve the TSP problem.
 ### Greedy
 The greedy algorithm starts from a city and hops to the closest city. There's also a parameter to adjust the probability to hop to the second, third, etc., closest city, which can produce better results.
 
+The following results are obtained by looping over all cities as starting point, choosing always the next city.
+| City     | Greedy Solution |
+|----------|------------------|
+| Vanuatu  | 1475.53 km|
+| Italy    | 4436.03 km|
+| Russia   | 40051.59 km|
+| US       | 46244.33 km|
+| China    | 62116.04 km |
+
+
+
 ### Evolutionary
 The initial population is composed of several solutions produced with the greedy approach. I've tried several alternatives for the mutation, and `inversion mutation` is the only one that actually works. Different types of crossover don't influence the final result much, but it seems that `cycle crossover` performs better on average. I've run the algorithm multiple times and selected the best performing one.
 
-### Results
 #### Best paths
 ![TSP Vanuatu](./images/TSP_vanuatu.png)
 ![TSP Italy](./images/TSP_italy.png)
