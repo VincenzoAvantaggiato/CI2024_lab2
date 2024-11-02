@@ -10,11 +10,11 @@ The initial population is composed of several solutions produced with the greedy
 
 ### Results
 #### Best paths
-![TSP Vanuatu](./images/tsp_vanuatu.png)
-![TSP Italy](./images/tsp_italy.png)
-![TSP Russia](./images/tsp_russia.png)
-![TSP US](./images/tsp_us.png)
-![TSP China](./images/tsp_china.png)
+![TSP Vanuatu](./images/TSP_vanuatu.png)
+![TSP Italy](./images/TSP_italy.png)
+![TSP Russia](./images/TSP_russia.png)
+![TSP US](./images/TSP_us.png)
+![TSP China](./images/TSP_china.png)
 
 #### Fitness evolution
 ![Fitness Evolution Vanuatu](./images/fitness_vanuatu.png)
